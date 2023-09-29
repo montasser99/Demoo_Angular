@@ -1,0 +1,17 @@
+<h4>ajouter un nouveau etudiant : </h4>
+<form  (ngSubmit)="AjouterEtudiant()">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nom</label>
+      <input type="text" class="form-control" name="nomEtudiant" [(ngModel)]="ListEtudiant.nomEtudiant">
+    </div>
+    <div class="col-md-6">
+      <label  class="form-label">Adresse</label>
+      <input type="text" class="form-control" name="adresseEtudiant" [(ngModel)]="ListEtudiant.adresseEtudiant">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+  </form>
+
+<!-- PrimeNG Success message with animations -->
+<p-messages [value]="messages"></p-messages>

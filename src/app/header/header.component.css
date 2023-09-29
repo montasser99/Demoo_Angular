@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  box-shadow: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #143e6fea;
+}
+.section-1 {
+  padding: 20px;
+  overflow: hidden;
+  border-bottom: 2px solid #ffffff;
+}
+.styling-logo {
+  float: left;
+}
+.styling-logo h2 {
+  margin-left: 150px;
+  color: #fff;
+  font-size: 30px;
+}
+.styling-link {
+  float: right;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+.styling-link a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 20px;
+  font-size: 20px;
+}
+.styling-link a:hover {
+  border-bottom: 2px solid #ffffff;
+  -webkit-transition: all ease 0.75s;
+  -moz-transition: all ease 0.75s;
+}

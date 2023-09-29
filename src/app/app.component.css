@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  
+  
+  .content {
+    flex: 1; /* Take up the remaining space */
+    padding: 20px;
+  }

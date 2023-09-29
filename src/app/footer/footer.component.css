@@ -1,0 +1,12 @@
+footer {
+    color: white;
+    background: linear-gradient(
+      336deg,
+      rgb(247, 232, 225) 0%,
+      rgb(41, 111, 251) 35%,
+      rgb(120, 115, 114) 100%
+    );
+    margin: 3px 0px 1px 1px;
+    padding: 5px;
+    text-align: center;
+  }
