@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Etudiant } from '../Models/Etudiant';
 import { EtudiantService } from './etudiant.service';
-import { ThisReceiver } from '@angular/compiler';
+
 
 @Component({
   selector: 'app-etudiant',
