@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AjouterEtudiantComponent } from './ajouter-etudiant/ajouter-etudiant.component';
 
 import { FormsModule } from '@angular/forms';
+import { ModifierEtudiantComponent } from './modifier-etudiant/modifier-etudiant.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     SidebarComponent,
     FooterComponent,
     EtudiantComponent,
-    AjouterEtudiantComponent
+    AjouterEtudiantComponent,
+    ModifierEtudiantComponent
   ],
   imports: [
     BrowserModule,

@@ -24,7 +24,7 @@
                 {{listeE.adresseEtudiant}}
             </td>
             <td>
-            <button class="btn btn-info">Modifier</button>
+            <button class="btn btn-info" [routerLink]="['/Modifieretudiant',listeE.idEtudiant,listeE.nomEtudiant,listeE.adresseEtudiant]">Modifier</button>
             <button class="btn btn-danger" (click)="SupprimerEtudiant(listeE.idEtudiant)" style="margin-left: 10px;">Supprimer</button>
             </td>
         </tr>

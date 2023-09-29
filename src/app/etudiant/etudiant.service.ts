@@ -23,7 +23,7 @@ export class EtudiantService {
     return this.http.post<Etudiant>(`${this.baseUrl}/etudiant/add`, etudiant, this.httpOptions);
   }
 
-  updateDepartement(etudiant: Etudiant) {
+  updateEtudiant(etudiant: Etudiant) {
     return this.http.put<Etudiant>(`${this.baseUrl}/etudiant/updateEtudiant`, etudiant, this.httpOptions);
   }
 

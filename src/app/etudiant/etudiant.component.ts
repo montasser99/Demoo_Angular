@@ -29,6 +29,7 @@ export class EtudiantComponent implements OnInit {
   public SupprimerEtudiant(idE:number){
     this.etudiantService.deleteEtudiant(idE).subscribe(
       ()=>{
+        alert("Supprimer avec succées!")
         this.ngOnInit();
       }
     );

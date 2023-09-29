@@ -23,6 +23,10 @@ export class AjouterEtudiantComponent implements OnInit {
   ngOnInit(): void {}
 
   public AjouterEtudiant() {
+    if(this.ListEtudiant.nomEtudiant=="" || this.ListEtudiant.adresseEtudiant==""){
+      alert("Veuillez remplir tous les champs"); 
+    return;
+    }
     this.etudiantService.AddEtudiant(this.ListEtudiant).subscribe(() => {
       console.log(this.ListEtudiant);
 
